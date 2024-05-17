@@ -1,0 +1,13 @@
+
+DECLARE_EXPORT_TABLE(acdev, 1, 1)
+	DECLARE_EXPORT(_start)
+	DECLARE_EXPORT(_retonly)
+	DECLARE_EXPORT(_retonly)
+	DECLARE_EXPORT(_retonly)
+    DECLARE_EXPORT(SetDelayFor0xaDevice)
+    DECLARE_EXPORT(GetDelayFor0xaDevice)
+    DECLARE_EXPORT(SetDelayFor0xbDevice)
+    DECLARE_EXPORT(GetDelayFor0xbDevice)
+END_EXPORT_TABLE
+
+void _retonly() {}
